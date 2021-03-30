@@ -1,6 +1,6 @@
 # godot-palette-shader
 
-This is a 3D lighting shader which takes in a gradient texture/.PNG (example below) and shades the material based on the amount of light received in the scene.
+This is a 3D lighting shader which takes in a gradient texture/.PNG and shades the material based on the amount of light received in the scene.
 
 https://user-images.githubusercontent.com/25359372/112930473-5a7ebd80-90e8-11eb-910b-deb4f419d77e.mp4
 
