@@ -19,9 +19,9 @@ void light(){
 	float NdotL = dot(NORMAL, LIGHT);
 	vec4 selected_color = default_color.rgba;
 
-	for(float shadeValue = -1.0; shadeValue <= 1.0; shadeValue = shadeValue + shade_factor) {
+	for(float shade_value = -1.0; shade_value <= 1.0; shade_value = shade_value + shade_factor) {
 		
-		if (NdotL >= shadeValue && NdotL < shadeValue + shade_factor) {
+		if (NdotL >= shade_value && NdotL < shade_value + shade_factor) {
 			selected_color = texture(base_ramp, vec2(color_pos + color_pos_factor, 0)).rgba;
 			color_pos = 0.0 - color_pos_factor;
 			break;
