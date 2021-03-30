@@ -1,0 +1,10 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://Mesh/color_ramp.tres" type="Texture" id=1]
+[ext_resource path="res://3D_color_ramp.shader" type="Shader" id=2]
+
+[resource]
+shader = ExtResource( 2 )
+shader_param/default_color = Color( 0, 0, 0, 0 )
+shader_param/reverse = false
+shader_param/base_ramp = ExtResource( 1 )
